@@ -1,0 +1,12 @@
+@mixin promo-title {
+   color: ffffff;
+   text-align: center;
+   margin: 0;
+}
+
+@mixin btn_hover {
+   &:hover {
+      background-image: none;
+      background-color: $blue-color;
+   }
+}
